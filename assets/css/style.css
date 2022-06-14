@@ -1,0 +1,277 @@
+body {
+  background: #120338;
+  font-family: "Inter";
+}
+body div.top-background-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 700px;
+  z-index: -1;
+  background: radial-gradient(circle, #380337 0%, #120338 30%);
+  background-blend-mode: normal;
+}
+body div.header {
+  padding-top: 30px;
+}
+body div.header img.logo {
+  width: 94px;
+  height: 44px;
+}
+body div.header .text-dark {
+  color: #999999 !important;
+}
+body div.header .neptune {
+  background: linear-gradient(180deg, #2cd8d5 0%, #6b8dd6 11.39%, #8e37d7 100%);
+  background-blend-mode: normal;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #999999;
+  font-family: Inter;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+body div.header .warehouse {
+  background: linear-gradient(180deg, #1b00ea 0%, #00c6fb 100%);
+  background-blend-mode: normal;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #999999;
+  font-family: Inter;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+body div.title {
+  margin-top: 100px;
+}
+body div.title h2.main-title {
+  color: #999999;
+  font-family: Inter;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+body div.title span.sub-title {
+  color: #999999;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+body div.journey {
+  margin-top: 30px;
+}
+body div.journey img.moon {
+  height: 60px;
+}
+body div.ecosystem {
+  margin-top: 50px;
+}
+body div.ecosystem h3.title {
+  color: #ffffff;
+  font-family: Inter;
+  text-align: center;
+}
+body div.ecosystem div.bcard {
+  padding: 15px;
+  box-sizing: border-box;
+  background: #09011D;
+}
+body div.ecosystem div.bcard div.wrap {
+  text-align: left;
+}
+body div.ecosystem div.bcard div.wrap img {
+  vertical-align: middle;
+  width: 30px;
+}
+body div.ecosystem div.bcard div.wrap span.btitle {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 0 5px 5px;
+  font-family: Inter;
+  font-size: 18px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+}
+body div.ecosystem div.bcard div.wrap span.neptune {
+  background-image: linear-gradient(180deg, #2cd8d5 0%, #6b8dd6 39.46%, #8e37d7 70%);
+}
+body div.ecosystem div.bcard div.wrap span.warehouse {
+  background-image: linear-gradient(180deg, #005bea 0%, #00c6fb 70%);
+}
+body div.ecosystem div.bcard div.wrap span.bespoke {
+  background-image: linear-gradient(180deg, #f84100 0%, #f9d213 70%);
+}
+body div.ecosystem div.bcard div.content {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #999;
+  min-height: 165px;
+  padding-bottom: 10px;
+}
+body div.our-value {
+  margin-top: 70px;
+}
+body div.our-value h3.title {
+  color: #ffffff;
+  font-family: Inter;
+  text-align: center;
+}
+body div.our-value div.vcard {
+  padding: 30px;
+  box-sizing: border-box;
+  background: #281A48;
+  border-radius: 15px;
+}
+body div.our-value div.vcard div.vtitle {
+  color: #999;
+}
+body div.our-value div.vcard div.content {
+  margin-top: 15px;
+  color: #CF60EA;
+  font-size: 14px;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+}
+body div.our-value div.vcard div.quality {
+  background-image: linear-gradient(167deg, #ffffff 0%, #cf60ea 100%);
+  background-blend-mode: normal;
+  color: #cf60ea;
+}
+body div.our-value div.vcard div.simplicity {
+  background-image: linear-gradient(181deg, #ffffff 0%, #cf60ea 100%);
+  background-blend-mode: normal;
+  color: #cf60ea;
+}
+body div.our-value div.vcard div.security {
+  background-image: linear-gradient(207deg, #ffffff 0%, #cf60ea 100%);
+  background-blend-mode: normal;
+  color: #cf60ea;
+}
+body div.our-value div#product {
+  color: white;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  line-height: 140px;
+  border-radius: 70px;
+  background: #624DA8;
+  margin: 50px auto;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+}
+body div.our-people {
+  margin-top: 70px;
+}
+body div.our-people h3.title {
+  color: #ffffff;
+  font-family: Inter;
+  text-align: center;
+}
+body div.our-people div.pcard {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+}
+body div.our-people div.theme-1 {
+  -webkit-box-shadow: 0px 0px 5px 0px #F86622;
+  box-shadow: 0px 0px 5px 0px #F86622;
+  background-image: linear-gradient(232deg, #f80505 0%, #ff7b36 100%);
+  background-blend-mode: normal;
+}
+body div.our-people span.remote-more-tips {
+  color: #999;
+  display: inline-block;
+  padding: 20px 0;
+}
+body div.our-people div.rpcard {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  color: #B5E742;
+  -webkit-box-shadow: 0px 0px 5px 0px #B5E742;
+  box-shadow: 0px 0px 5px 0px #B5E742;
+  background-image: linear-gradient(232deg, #B5E742 0%, #B5E742 100%);
+  background-blend-mode: normal;
+}
+body div.about-us {
+  margin-top: 70px;
+}
+body div.about-us h3 {
+  color: #ffffff;
+  font-family: Inter;
+  text-align: center;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  background-image: linear-gradient(40deg, #570ce7 40%, #60ddf6 55%, #7cab9b 100%);
+  background-blend-mode: normal;
+}
+body div.about-us div.content {
+  color: #999;
+}
+body div.about-us div.contact {
+  margin-top: 50px;
+  color: #999999;
+}
+body div.about-us div.contact div.cblock {
+  margin-bottom: 15px;
+}
+body div.about-us div.contact div.cblock div.image-wrap {
+  display: inline-block;
+  vertical-align: middle;
+}
+body div.about-us div.contact div.cblock div.image-wrap img {
+  height: 35px;
+  vertical-align: middle;
+}
+body div.about-us div.contact div.cblock div.text-wrap {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+}
+body div.footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
