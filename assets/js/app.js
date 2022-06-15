@@ -1,6 +1,6 @@
-jQuery(function() {
+// jQuery(function() {
 
-});
+// });
 
 new LeaderLine(
     document.getElementById("quality"),
