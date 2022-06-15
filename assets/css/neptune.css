@@ -1,0 +1,153 @@
+body {
+  background: #05010D;
+  font-family: "Inter";
+}
+body div.header {
+  padding: 150px 0 50px 0;
+  text-align: center;
+}
+body div.header div.image-wrap img {
+  width: 100px;
+}
+body div.header div.title {
+  margin-top: 15px;
+  font-family: "Inter";
+  font-size: 32px;
+  color: #ffffff;
+  font-family: Inter;
+  text-align: center;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  background-image: linear-gradient(40deg, #570ce7 40%, #60ddf6 55%, #7cab9b 100%);
+  background-blend-mode: normal;
+}
+body div.header div.intro {
+  color: #999;
+  font-size: 16px;
+}
+body div.analogy .column {
+  text-align: center;
+}
+body div.key-features {
+  margin-top: 80px;
+}
+body div.key-features h3 {
+  color: white;
+  text-align: center;
+}
+body div.key-features div.kf-card {
+  background: #120E19;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+body div.key-features div.kf-card div.title {
+  color: white;
+  font-size: 14px;
+}
+body div.key-features div.kf-card div.desc {
+  color: #999;
+  font-size: 14px;
+  margin-top: 15px;
+  min-height: 100px;
+}
+body div.benchmark-result {
+  margin-top: 80px;
+}
+body div.benchmark-result h3 {
+  color: white;
+  text-align: center;
+}
+body div.benchmark-result div.br-card {
+  padding: 20px;
+  background: #120E19;
+}
+body div.benchmark-result div.br-card div.title {
+  color: white;
+  font-size: 14px;
+}
+body div.benchmark-result div.br-card div.left-panel {
+  padding-left: 0;
+}
+body div.benchmark-result div.br-card div.left-panel div.desc {
+  margin-top: 10px;
+}
+body div.benchmark-result div.br-card div.left-panel div.desc div.item {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+body div.benchmark-result div.br-card div.left-panel div.desc div.item img {
+  display: inline-block;
+  vertical-align: middle;
+}
+body div.benchmark-result div.br-card div.left-panel div.desc div.item span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #999;
+}
+body div.benchmark-result div.br-card div.right-panel {
+  padding-top: 30px;
+}
+body div.benchmark-result div.br-card div.right-panel div.item {
+  text-align: center;
+}
+body div.benchmark-result div.br-card div.right-panel div.item div.icon {
+  color: red;
+}
+body div.benchmark-result div.br-card div.right-panel div.item div.desc {
+  font-size: 14px;
+}
+body div.benchmark-result div.bench-result-sub-right span.title {
+  color: white;
+  font-size: 14px;
+}
+body div.benchmark-result div.bench-result-sub-right div.bench-text-wrap {
+  text-align: center;
+  margin-top: 15px;
+}
+body div.benchmark-result div.bench-result-sub-right div.bench-text-wrap div.num {
+  font-size: 24px;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  background-image: linear-gradient(40deg, #F43C89 20%, #9110F4 100%);
+  background-blend-mode: normal;
+}
+body div.benchmark-result div.bench-result-sub-right div.bench-text-wrap div.lbl {
+  font-size: 14px;
+  color: #686868;
+}
+body div.use-case {
+  margin-top: 80px;
+}
+body div.use-case h3 {
+  color: white;
+  text-align: center;
+}
+body div.foot {
+  margin: 100px auto;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Inter;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  background-image: linear-gradient(40deg, #570ce7 40%, #60ddf6 55%, #7cab9b 100%);
+  background-blend-mode: normal;
+}

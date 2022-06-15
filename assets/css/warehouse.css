@@ -1,0 +1,162 @@
+body {
+  background: #05010D;
+  font-family: "Inter";
+}
+body div.header {
+  margin-top: 30px;
+}
+body div.main-catelog .title {
+  margin-top: 15px;
+  font-family: "Inter";
+  font-size: 32px;
+  color: #ffffff;
+  font-family: Inter;
+  text-align: center;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  background-image: linear-gradient(40deg, #005BEA 40%, #60ddf6 55%, #00C6FB 100%);
+  background-blend-mode: normal;
+}
+body div.main-catelog div.tips {
+  font-size: 16px;
+  color: #444;
+}
+body div.main-catelog div.info {
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+}
+body div.components {
+  margin-top: 60px;
+  text-align: center;
+}
+body div.components .title {
+  color: white;
+}
+body div.components div.item:first {
+  margin-left: 0;
+}
+body div.components div.item::after {
+  margin-right: 0;
+}
+body div.components div.item {
+  margin: 0 25px;
+  display: inline-block;
+}
+body div.components div.item div.img-wrap img {
+  width: 50px;
+}
+body div.components div.item div.lbl {
+  font-size: 14px;
+  color: #999;
+}
+body div.ui-screen {
+  margin-top: 60px;
+  text-align: center;
+}
+body div.ui-screen .title {
+  color: white;
+}
+body div.ui-screen div.desktop-ui {
+  vertical-align: middle;
+  display: inline-block;
+}
+body div.ui-screen div.desktop-ui img {
+  width: 500px;
+}
+body div.ui-screen div.app-ui {
+  vertical-align: middle;
+  display: inline-block;
+}
+body div.ui-screen div.app-ui img {
+  width: 160px;
+}
+body div.pricing {
+  margin-top: 60px;
+}
+body div.pricing h2.title {
+  color: white;
+}
+body div.pricing span.sub {
+  color: #666;
+  font-size: 18px;
+}
+body div.pricing table.pricing-table {
+  margin-top: 30px;
+  border: none !important;
+}
+body div.pricing table.pricing-table th {
+  border: none;
+  vertical-align: top;
+}
+body div.pricing table.pricing-table th.feature-lbl {
+  color: white;
+}
+body div.pricing table.pricing-table td {
+  border: none;
+  padding: 0.15rem 0.1rem;
+}
+body div.pricing table.pricing-table td div.item div.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+body div.pricing table.pricing-table td div.item div.lbl {
+  display: inline-block;
+  vertical-align: middle;
+  color: #999;
+}
+body div.pricing table.pricing-table div.tm {
+  text-align: left;
+}
+body div.pricing table.pricing-table .sio {
+  color: white;
+}
+body div.pricing table.pricing-table .wolo {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  background-image: linear-gradient(50deg, #005BEA 20%, #60ddf6 35%, #00C6FB 100%);
+  background-blend-mode: normal;
+}
+body div.pricing table.pricing-table .price {
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #666;
+}
+body div.pricing table.pricing-table .deploy {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #999;
+}
+body div.pricing table.pricing-table .user-limit {
+  font-weight: normal;
+  font-size: 16px;
+  color: #999;
+}
+body div.pricing table.pricing-table .rate {
+  font-weight: normal;
+  font-size: 16px;
+  color: #999;
+}
+body div.pricing table.pricing-table .td-line-on {
+  border-bottom: 1px solid #333 !important;
+}
+body div.pricing table.pricing-table .td-line-on div.item {
+  padding-bottom: 15px;
+}
+body div.pricing table.pricing-table .td-line-on-first div.item {
+  padding-top: 15px;
+}
